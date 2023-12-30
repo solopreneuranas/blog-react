@@ -1,0 +1,259 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: 'Poppins' !important
+}
+
+.root {
+  width: 100%;
+  height: 100%;
+  margin: auto;
+  display: flex;
+  padding: 0;
+  justify-content: center;
+  align-items: center;
+}
+
+.box {
+  width: 100%;
+  height: 100%;
+  margin: auto;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.blog-editor {
+  width: 100%;
+  margin: auto;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.left {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+}
+
+.right {
+  display: flex;
+  justify-content: right;
+  align-items: center;
+}
+
+.css-159ulw2-MuiPaper-root {
+  box-shadow: none !important;
+  display: flex !important;
+  justify-content: left !important;
+  border: none !important;
+}
+
+.css-1qgma8u-MuiButtonBase-root-MuiTableSortLabel-root {
+  font-weight: 600;
+  font-size: 18px;
+}
+
+.css-2ulfj5-MuiTypography-root {
+  font-weight: 600 !important;
+  font-size: 25px !important;
+  margin-left: 0 !important;
+}
+
+.css-1ex1afd-MuiTableCell-root,
+.css-11w94w9-MuiTableCell-root {
+  border-bottom: none !important;
+}
+
+.css-1ex1afd-MuiTableCell-root {
+  padding: 20px !important;
+}
+
+.css-ig9rso-MuiToolbar-root {
+  padding-left: 0 !important;
+  color: rgba(255, 255, 255, 0.13);
+}
+
+div:where(.swal2-container) button:where(.swal2-styled).swal2-confirm {
+  background-color: #0069ff !important;
+}
+
+.post-card {
+  border-radius: 15px !important;
+  box-shadow: 0 0 30px gainsboro !important;
+  border: none !important;
+}
+
+.ui-post-card {
+  box-shadow: none !important;
+  margin-right: 5% !important;
+  border-radius: 25px;
+  border: 1px solid #d8d8d8;
+  padding: 3%;
+  height: 530px;
+  position: relative;
+}
+
+.ui-post-img {
+  border-radius: 25px 25px 0 0 !important;
+}
+
+.ui-post-card-grid {
+  margin-bottom: 5% !important;
+}
+
+.ui-post-heading {
+  font-weight: 600;
+  font-size: 23px;
+  line-height: 1.5em;
+  margin-top: 4%;
+}
+
+.ui-like-div {
+  background-color: white;
+  border-radius: 4px;
+  padding: 0 5%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  position: absolute;
+  margin: 5% 0 0 5%;
+}
+
+.ui-post-grid {
+  padding: 5% 10%;
+}
+
+.ui-post-meta-para {
+  font-size: 16px !important;
+  opacity: 80%;
+  margin-top: 4% !important;
+  font-weight: 500;
+}
+
+.ui-post-meta {
+  font-weight: 500;
+  margin-top: 2%;
+  font-size: 17px;
+}
+
+.ui-blog-heading{
+  font-size: 45px;
+  font-weight: 600;
+  line-height: 1.2em;
+}
+
+.ui-blog-hero{
+  width: 100%;
+  height: auto;
+  padding: 7% 10%;
+  background: linear-gradient(to bottom, #ABCEFF, white);
+  color: black;
+  display: flex;
+  align-items: center;
+}
+
+
+.ui-global-btn{
+  background-color: #0069ff !important;
+  color: white !important;
+  padding: 3% 10% !important;
+  border-radius: 50px !important;
+  text-align: center;
+  margin-top: 5% !important;
+}
+
+.ui-blog-sidebar{
+  width: 100%;
+  height: auto;
+  padding: 3% 4%;
+}
+
+.ui-category-div{
+  margin-top: 10%;
+}
+
+.ui-sidebar-category {
+  font-weight: 500;
+  color: #004cef;
+  border-radius: 50px;
+  background-color: #e3efff;
+  display: inline-block;
+  padding: 3% 6%;
+  margin: 3% 1%;
+}
+
+.ui-sidebar-category:hover {
+  background-color: #006aff54 !important;
+  cursor: pointer;
+  color: #0069ff;
+}
+
+.ui-social-sec{
+  margin-top: 10%;
+}
+
+.ui-social-div {
+  background-color: #F2F5F9;
+  border-radius: 5px;
+  font-size: 17px;
+  padding: 5% 8%;
+  display: flex;
+  align-items: center;
+  margin: 7% 0;
+}
+
+.ui-social-div i {
+  font-size: 30px;
+  margin-right: 5%;
+}
+
+.highlight {
+  color: #0069ff;
+}
+
+.ui-footer-sec {
+  width: 100%;
+  margin: auto;
+  background-color: #1C2536;
+  color: white;
+  padding: 6% 13%;
+  border-top: 5px solid #0069ff;
+}
+
+
+.element-hover:hover {
+  cursor: pointer !important;
+}
+
+.ql-container {
+  font-size: 16px !important;
+  border: none !important;
+}
+
+.profileImg:hover {
+  cursor: pointer;
+}
+
+.activeList {
+  background-color: #0069ff !important;
+  border-radius: 15px !important;
+  color: white !important;
+  opacity: 100% !important;
+}
+
+.css-5wly58-MuiDataGrid-root .MuiDataGrid-cellContent {
+  font-size: 17px !important;
+  font-weight: 500 !important;
+}
+
+.css-t89xny-MuiDataGrid-columnHeaderTitle {
+  font-size: 19px !important;
+  font-weight: 600 !important;
+}
